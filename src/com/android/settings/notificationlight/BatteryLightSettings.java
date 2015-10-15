@@ -27,7 +27,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.settings.InstrumentedFragment;
+import com.android.internal.logging.MetricsLogger;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -69,6 +69,11 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(prefSet.findPreference("colors_list"));
             resetColors();
         }
+    }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.APPLICATION;
     }
 
     @Override
@@ -157,9 +162,5 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
         return true;
     }
-
-    @Override
-    protected int getMetricsCategory() {
-        return InstrumentedFragment.BATTERYLIGHT;
-    }
 }
+
