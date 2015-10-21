@@ -2154,10 +2154,21 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-        <!-- Solo activities Start -->
+        <!-- Aosip activities Start -->
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
-        <!-- Solo activities end -->
+
+        <activity android:name="Settings$OwlsnestActivity"
+            android:label="@string/custom_title"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.Owlsnest" />
+        </activity>
+        <!-- Aosip activities end -->
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
