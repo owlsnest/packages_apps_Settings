@@ -26,6 +26,13 @@
     <string name="default_string">Default</string>
     <string name="header_category_personalization">UI settings</string>
     <string name="custom_title">OwlsNest</string>
+    <string name="aosip_extras">AOSiP additions</string>
+    <string name="display_battery">Power saving</string>
+    <string name="display_visual">Look and feel</string>
+    <string name="brightness_summary">Adjust desired screen brightness</string>
+    <string name="daydream_summary">Enable screensaver</string>
+    <string name="wallpaper_summary">Change the default wallpaper</string>
+    <string name="cast_summary">Cast your device to a different display</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
