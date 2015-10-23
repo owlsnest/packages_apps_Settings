@@ -81,7 +81,7 @@
             android:id="@+id/Owlsnest"
             android:title="@string/custom_title"
             android:fragment="com.aosip.owlsnest.Owlsnest"
-            android:icon="@drawable/ic_settings_owl"
+            android:icon="@drawable/ic_settings_illusion"
             />
 
         <!-- Display -->
