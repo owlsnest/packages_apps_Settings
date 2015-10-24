@@ -106,12 +106,6 @@
                 android:summary="@string/wallpaper_summary"
                 android:fragment="com.android.settings.WallpaperTypeSettings" />
 
-        <PreferenceScreen
-                android:key="lockscreen_settings"
-                android:title="@string/lockscreen_settings_title"
-                android:persistent="false"
-                android:fragment="com.android.settings.slim.LockscreenSettings" />
-
         <com.android.settings.WarnedListPreference
                 android:key="font_size"
                 android:title="@string/title_font_size"
