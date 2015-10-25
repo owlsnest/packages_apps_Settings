@@ -125,4 +125,8 @@
     <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
     <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
 
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
+
 </resources>
